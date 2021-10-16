@@ -1,3 +1,3 @@
 # Colaris
-Trying hard to learn C and python\n
-practice programing
+Trying hard to learn C and python. 
+Practice programing.
