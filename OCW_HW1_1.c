@@ -35,19 +35,6 @@ int main() {
         } else {
             i = p + 1;
             j = q;
-            // i++;
-            // j++;
-            // if (i < 0) {
-            //     i += n;
-            // } else if (i > n - 1) {
-            //     i -= n;
-            // }
-            // if (j < 0) {
-            //     j += n;
-            // } else if (j > n - 1) {
-            //     j -= n;
-            // }
-            // i++;
             arr_3[i][j] = num;
         }
     }
