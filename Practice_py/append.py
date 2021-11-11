@@ -1,0 +1,7 @@
+stuff = list()
+stuff.append('book')
+print(stuff)
+stuff.append(99)
+print(stuff)
+stuff.append('cookie')
+print(stuff)
