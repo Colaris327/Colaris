@@ -1,0 +1,31 @@
+Insertion Sort 10000: 0.058s
+Quick Sort 10000: 0.001s
+Merge Sort 10000: 0.004s
+Radix Sort 10000: 0.001s
+Heap Sort 10000: 0.001s
+STL sort 10000: 0.002s
+Stdlib qsort 10000: 0.002s
+
+Insertion Sort 50000: 1.365s
+Quick Sort 50000: 0.008s
+Merge Sort 50000: 0.017s
+Radix Sort 50000: 0.004s
+Heap Sort 50000: 0.011s
+STL sort 50000: 0.008s
+Stdlib qsort 50000: 0.008s
+
+Insertion Sort 100000: 5.467s
+Quick Sort 100000: 0.013s
+Merge Sort 100000: 0.034s
+Radix Sort 100000: 0.011s
+Heap Sort 100000: 0.026s
+STL sort 100000: 0.017s
+Stdlib qsort 100000: 0.017s
+
+Insertion Sort 500000: 139.971s
+Quick Sort 500000: 0.077s
+Merge Sort 500000: 0.162s
+Radix Sort 500000: Broken
+Heap Sort 500000: 0.142s
+STL sort 500000: 0.089s
+Stdlib qsort 500000: 0.089s
