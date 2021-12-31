@@ -28,8 +28,8 @@ class BST
 {
     private:
         TreeNode *root;
-        Treenode * LeftMost(Treenode *currentNode);
-        Treenode * Successor(Treenode *currentNode);
+        TreeNode * LeftMost(TreeNode *currentNode);
+        TreeNode * Successor(TreeNode *currentNode);
     public:
         BST(): root(0) {}
         TreeNode * Search(int key);
@@ -100,8 +100,7 @@ TreeNode * BST::Successor(TreeNode *current)
 
 void BST::InorderPrint()
 {
-    TreeNode *current = new TreeNode;
-    current = LeftMost(root);
+    TreeNode *current = LeftMost(root);
     while (current)
     {
         cout << current->element << "(" << current->key << ") ";
@@ -167,4 +166,14 @@ void BST::DeleteBST(int KEY)
 
     delete y;
     y = 0;
+}
+
+int main()
+{
+    BST tree;
+    tree.InsertBST(12, "candy");
+    tree.InsertBST(30, "orange");
+    tree.InsertBST(20, "apple");
+    tree.InorderPrint();
+    return 0;
 }
